@@ -22,6 +22,6 @@ This returns kiba_train.csv, kiba_test.csv, davis_train.csv, and davis_test.csv,
 To train model using training data. The model is chosen if it gains the best MSE for testing data.</br>
 Running<br>
 ```
-python training.py 0
+python k_fold_training.py 0
 ```
 where the first argument is for the index of the datasets, 0/1 for 'davis' or 'kiba', respectively
